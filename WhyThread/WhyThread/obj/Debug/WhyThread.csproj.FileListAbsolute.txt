@@ -1,0 +1,7 @@
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\obj\Debug\WhyThread.csprojAssemblyReference.cache
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\obj\Debug\WhyThread.csproj.CoreCompileInputs.cache
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\bin\Debug\WhyThread.exe.config
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\bin\Debug\WhyThread.exe
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\bin\Debug\WhyThread.pdb
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\obj\Debug\WhyThread.exe
+C:\Users\OptiCheck\Desktop\Threading\WhyThread\WhyThread\obj\Debug\WhyThread.pdb

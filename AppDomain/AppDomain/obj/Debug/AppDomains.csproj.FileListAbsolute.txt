@@ -1,0 +1,7 @@
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\bin\Debug\AppDomain.exe.config
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\bin\Debug\AppDomain.exe
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\bin\Debug\AppDomain.pdb
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\obj\Debug\AppDomains.csprojAssemblyReference.cache
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\obj\Debug\AppDomains.csproj.CoreCompileInputs.cache
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\obj\Debug\AppDomain.exe
+C:\Users\OptiCheck\Desktop\Threading\AppDomain\AppDomain\obj\Debug\AppDomain.pdb

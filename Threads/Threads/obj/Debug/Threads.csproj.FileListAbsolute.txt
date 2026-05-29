@@ -1,0 +1,7 @@
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\bin\Debug\Threads.exe.config
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\bin\Debug\Threads.exe
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\bin\Debug\Threads.pdb
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\obj\Debug\Threads.csproj.CoreCompileInputs.cache
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\obj\Debug\Threads.exe
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\obj\Debug\Threads.pdb
+C:\Users\OptiCheck\Desktop\Threading\Threads\Threads\obj\Debug\Threads.csprojAssemblyReference.cache

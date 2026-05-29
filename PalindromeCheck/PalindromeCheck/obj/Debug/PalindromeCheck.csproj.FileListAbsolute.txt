@@ -1,0 +1,7 @@
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\bin\Debug\PalindromeCheck.exe.config
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\bin\Debug\PalindromeCheck.exe
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\bin\Debug\PalindromeCheck.pdb
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\obj\Debug\PalindromeCheck.csprojAssemblyReference.cache
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\obj\Debug\PalindromeCheck.csproj.CoreCompileInputs.cache
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\obj\Debug\PalindromeCheck.exe
+C:\Users\OptiCheck\Desktop\Threading\PalindromeCheck\PalindromeCheck\obj\Debug\PalindromeCheck.pdb
