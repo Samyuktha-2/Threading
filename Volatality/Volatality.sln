@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.36617.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volatality", "Volatality\Volatality.csproj", "{C1D441AE-89AE-41D2-A812-59D620E92BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1D441AE-89AE-41D2-A812-59D620E92BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D441AE-89AE-41D2-A812-59D620E92BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D441AE-89AE-41D2-A812-59D620E92BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D441AE-89AE-41D2-A812-59D620E92BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB02F5F-FB55-495C-9746-BA211BB6E36B}
+	EndGlobalSection
+EndGlobal

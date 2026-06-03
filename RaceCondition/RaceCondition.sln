@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.36617.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceCondition", "RaceCondition\RaceCondition.csproj", "{0FE4FDEC-07F0-42A8-8249-D1132563DA40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE4FDEC-07F0-42A8-8249-D1132563DA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE4FDEC-07F0-42A8-8249-D1132563DA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE4FDEC-07F0-42A8-8249-D1132563DA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE4FDEC-07F0-42A8-8249-D1132563DA40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3806F320-0D73-4168-999B-DD4F9217BDCA}
+	EndGlobalSection
+EndGlobal

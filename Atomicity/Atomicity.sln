@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.36617.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomicity", "Atomicity\Atomicity.csproj", "{AFDF3FBF-F5B3-4E2E-8E75-3DA514DEB83F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFDF3FBF-F5B3-4E2E-8E75-3DA514DEB83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDF3FBF-F5B3-4E2E-8E75-3DA514DEB83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDF3FBF-F5B3-4E2E-8E75-3DA514DEB83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDF3FBF-F5B3-4E2E-8E75-3DA514DEB83F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC2B46D7-3C3E-4CE2-849F-958648C72275}
+	EndGlobalSection
+EndGlobal
