@@ -10,10 +10,10 @@ namespace MonitorSP
         static object myLock = new object();
 
         static void Producer()
-        { 
-            for(int i = 0; i < 5; i++)
+        {
+            for (int i = 0; i < 5; i++)
             {
-                bool acquired = false; 
+                bool acquired = false;
                 try
                 {
                     Monitor.TryEnter(myLock, 2000, ref acquired);
@@ -60,7 +60,7 @@ namespace MonitorSP
 
                 try
                 {
-                    if(queue.Count == 0)
+                    if (queue.Count == 0)
                     {
                         Console.WriteLine("Consumer Waiting.....");
                         Monitor.Wait(myLock);
@@ -78,17 +78,63 @@ namespace MonitorSP
         }
         static void Main(string[] args)
         {
-            Thread p1 = new Thread(Producer);  
-            Thread c1 = new Thread(Consumer);  
-            p1.Start(); 
-            c1.Start();  
-            p1.Join(); 
-            c1.Join();  
+            Thread p1 = new Thread(Producer);
+            Thread c1 = new Thread(Consumer);
+            p1.Start();
+            c1.Start();
+            p1.Join();
+            c1.Join();
             Console.WriteLine("Finished");
+
+            TimeOut timeout = new TimeOut();
+            Thread thread = new Thread(timeout.RunTimeout);
+            Thread thread2 = new Thread(timeout.RunTimeout);
+            thread.Start();
+            thread2.Start();
+
+            thread.Join();
+            thread2.Join();
             Console.ReadLine();
         }
     }
+    class TimeOut
+    {
+        public TimeOut() { }
+
+        static object myLock = new object();
+        public void RunTimeout()
+        {
+            bool acquired = false;
+            try
+            {
+                Monitor.TryEnter(myLock, 2000, ref acquired);
+                if (acquired)
+                {
+                    Thread.Sleep(3500);
+                    Console.WriteLine("Acquired..");
+                }
+                else
+                {
+                    Console.WriteLine("Timed Out.....");
+                }
+            }
+            finally
+            {
+                if (acquired)
+                {
+                    Monitor.Exit(myLock);
+                }
+            }
+        }
+    }
+
 }
 //Consumer -> Queue Empty? -> Wait() 
 //Producer -> Add Item -> Pulse() 
 //Consumer Wakes -> Consumes Item
+
+
+
+
+
+
