@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.36617.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freezable", "Freezable\Freezable.csproj", "{2330785A-DECB-4D37-BC54-AB32135A5DCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2330785A-DECB-4D37-BC54-AB32135A5DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2330785A-DECB-4D37-BC54-AB32135A5DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2330785A-DECB-4D37-BC54-AB32135A5DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2330785A-DECB-4D37-BC54-AB32135A5DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58D413CC-1F1B-4049-9473-A68760901FC2}
+	EndGlobalSection
+EndGlobal
