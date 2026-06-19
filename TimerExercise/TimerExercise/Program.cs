@@ -7,25 +7,15 @@ namespace TimerExercise
 {
     class Program
     {
-        static Timer timer = new Timer(10);
-        static Timer timer1 = new Timer(10);
-        static Stopwatch sw = Stopwatch.StartNew();
-
-        static int i = 1;
-        static int i1 = 1;
-
+        static Timer timer = new Timer(10); 
+        static int i = 1;  
         static void Main(string[] args)
         {
             timer.Elapsed += PrintTime;
             timer.AutoReset = true;
-            timer.Start();
-
-            timer1.Elapsed += PrintTime1;
-            timer1.Start();
-
+            timer.Start();  
             Console.ReadLine();
-        }
-
+        } 
         private static void PrintTime(object sender, ElapsedEventArgs e)
         {
             if (i > 9)
@@ -33,15 +23,8 @@ namespace TimerExercise
                 timer.Stop();
                 timer.Dispose();
                 return;
-            } 
-
+            }  
             Console.WriteLine(i++);
         }
-
-        private static void PrintTime1(object sender,ElapsedEventArgs e)
-        {
-            Console.WriteLine( $"Tick: {i1++} | " + $"Elapsed: {sw.ElapsedMilliseconds} ms");
-        }
     }
-
 }
