@@ -10,14 +10,12 @@ namespace InternallySynchronized
     {
         static void Main(string[] args)
         {
-            Counter c = new Counter();
-
+            Counter c = new Counter(); 
             Parallel.For(0, 4, i =>
             {
                 c.Increment();
                 c.GetValue();
-            });
-
+            }); 
             Console.ReadLine();
         }
     }
@@ -33,8 +31,7 @@ namespace InternallySynchronized
             {
                 value++;
             }
-        }
-
+        } 
         public void GetValue()
         {
             lock (_lock)
